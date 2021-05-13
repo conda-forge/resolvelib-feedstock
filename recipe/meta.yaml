@@ -8,7 +8,7 @@ package:
 source:
   # GitHub release contains tests/
   url: https://github.com/sarugaku/{{ name|lower }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: e84fa59491906b962f17def418d5012c16ac62044f5a84ac1bf4bc8bd5873cfc
+  sha256: 01af9b4de4f417a69479bbaa45d7b49baefe33897c27d76cbb79a43f9a2e0bf0
 
 build:
   noarch: python
