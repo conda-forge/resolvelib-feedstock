@@ -1,5 +1,5 @@
 {% set name = "resolvelib" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 source:
   # GitHub release contains tests/
   url: https://github.com/sarugaku/{{ name|lower }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: e84fa59491906b962f17def418d5012c16ac62044f5a84ac1bf4bc8bd5873cfc
+  sha256: fe09a918c04172656e5edc33ca62166ff7e557d8c22e0bf60cc9981220ac51cf
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -39,7 +39,7 @@ about:
   home: https://github.com/sarugaku/resolvelib
   license: ISC
   license_file: LICENSE
-  summary: 'Simple, fast, extensible JSON encoder/decoder for Python'
+  summary: Simple, fast, extensible JSON encoder/decoder for Python
   description: |
     ResolveLib at the highest level provides a Resolver class that
     includes dependency resolution logic. You give it some things, and a
