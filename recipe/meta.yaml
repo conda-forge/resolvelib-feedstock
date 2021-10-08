@@ -1,5 +1,5 @@
 {% set name = "resolvelib" %}
-{% set version = "0.7.1" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   # GitHub release contains tests/
   url: https://github.com/sarugaku/{{ name|lower }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: fe09a918c04172656e5edc33ca62166ff7e557d8c22e0bf60cc9981220ac51cf
+  sha256: 247e9e4055b09f393013ea66f3b9616d58c419db3f5cc4fdecf2d12744beb840
 
 build:
   noarch: python
