@@ -1,11 +1,11 @@
-About resolvelib
-================
+About resolvelib-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/resolvelib-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/sarugaku/resolvelib
 
 Package license: ISC
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/resolvelib-feedstock/blob/main/LICENSE.txt)
 
 Summary: Simple, fast, extensible JSON encoder/decoder for Python
 
