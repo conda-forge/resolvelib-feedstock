@@ -17,18 +17,19 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
+    - setuptools
   run:
-    - python >=3.6
+    - python >=3.7
 
 test:
   imports:
     - resolvelib
   requires:
     - pip
+    - packaging
     - pytest
-    - commentjson
   source_files:
     - tests
   commands:
